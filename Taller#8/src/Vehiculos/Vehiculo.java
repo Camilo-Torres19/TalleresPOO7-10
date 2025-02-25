@@ -16,4 +16,7 @@ public class Vehiculo {
         this.marca = marca;
         this.velocidadMaxima = velocidadMaxima;
     }
+    public String detalles(){
+        return "Vehiculo marca : "+marca + " Su velocidad maxima es de : "+velocidadMaxima;
+    }
 }

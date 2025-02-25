@@ -15,4 +15,7 @@ public class Coche extends Vehiculo {
         super(marca, velocidadMaxima);
         this.numeroDePuertas = numeroDePuertas;
     }
+    public void MostarInfo(){
+        System.out.println(detalles()+ " Numero de puertas: "+numeroDePuertas);
+    }
 }
