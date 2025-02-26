@@ -18,6 +18,6 @@ public class Estudiante extends Persona {
     
     @Override
     public String mostrarInformacion(){
-        return mostrarInformacion() + ", Matrícula: " + matricula;
+        return "Nombre: " + nombre + ", Edad: " + edad+ ", Matrícula: " + matricula;
     }
 }
